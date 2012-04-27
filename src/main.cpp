@@ -11,6 +11,10 @@ int main(){
     }catch(int result){
         std::cout<<result<<std::endl;
     }
-
+    try{
+        game.stop();
+    }catch(int result){
+        std::cout<<result<<std::endl;
+    }
     return 0;
 }
