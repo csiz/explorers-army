@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1335537228 source:e:\main\computer stuff\the explorer's army\src\map.cpp
+	"map.h"
+
+1335536956 e:\main\computer stuff\the explorer's army\src\map.h
+
+1335537228 source:e:\main\computer stuff\the explorer's army\src\network.cpp
+	"network.h"
+
+1335536956 e:\main\computer stuff\the explorer's army\src\network.h
+
+1335536956 source:e:\main\computer stuff\the explorer's army\src\game.cpp
+	"game.h"
+
+1335537245 e:\main\computer stuff\the explorer's army\src\game.h
+
+1335537129 source:e:\main\computer stuff\the explorer's army\src\main.cpp
+	"game.h"
+	"map.h"
+	"network.h"
+	<iostream>
+
