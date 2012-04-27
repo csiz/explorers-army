@@ -33,9 +33,13 @@
 		</Compiler>
 		<Unit filename="src\game.cpp" />
 		<Unit filename="src\game.h" />
+		<Unit filename="src\general.cpp" />
+		<Unit filename="src\general.h" />
 		<Unit filename="src\main.cpp" />
 		<Unit filename="src\map.cpp" />
 		<Unit filename="src\map.h" />
+		<Unit filename="src\maptile.cpp" />
+		<Unit filename="src\maptile.h" />
 		<Unit filename="src\network.cpp" />
 		<Unit filename="src\network.h" />
 		<Extensions>
