@@ -12,12 +12,13 @@ class Map
         Map();
         ~Map();
 
-        MapTile& operator()(int x, int y);
+        std::vector<std::vector<MapTile> > map;
+
         std::vector<Point> find_path(Point start, Point end);
+
     protected:
     private:
-        std::vector<std::vector<MapTile> > current_tiles;
-        Point current_offset;
+
 
 };
 

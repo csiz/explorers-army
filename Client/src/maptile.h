@@ -8,7 +8,6 @@ class MapTile
         MapTile();
         ~MapTile();
 
-        float cost;
     protected:
     private:
 };
