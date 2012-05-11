@@ -7,7 +7,8 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="debug">
-				<Option output="bin\debug\The Explorer&apos;s Army" prefix_auto="1" extension_auto="1" />
+				<Option output="bin\The Explorer&apos;s Army" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\" />
 				<Option object_output="obj\debug\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +17,8 @@
 				</Compiler>
 			</Target>
 			<Target title="release">
-				<Option output="bin\release\The Explorer&apos;s Army" prefix_auto="1" extension_auto="1" />
+				<Option output="bin\The Explorer&apos;s Army" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\" />
 				<Option object_output="obj\release\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -25,6 +27,7 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add library="src\libs\libpython27.a" />
 				</Linker>
 			</Target>
 		</Build>
@@ -35,6 +38,7 @@
 		<Unit filename="src\game.h" />
 		<Unit filename="src\general.cpp" />
 		<Unit filename="src\general.h" />
+		<Unit filename="src\include\python.h" />
 		<Unit filename="src\main.cpp" />
 		<Unit filename="src\map.cpp" />
 		<Unit filename="src\map.h" />

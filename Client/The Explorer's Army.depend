@@ -20,7 +20,8 @@
 	"network.h"
 	<iostream>
 
-1335537492 source:e:\main\computer stuff\the explorer's army\client\src\main.cpp
+1336743430 source:e:\main\computer stuff\the explorer's army\client\src\main.cpp
+	"include/python.h"
 	"game.h"
 	"map.h"
 	"network.h"
@@ -28,16 +29,16 @@
 
 1335537245 e:\main\computer stuff\the explorer's army\client\src\game.h
 
-1335549814 e:\main\computer stuff\the explorer's army\client\src\map.h
+1335818852 e:\main\computer stuff\the explorer's army\client\src\map.h
 	<vector>
 	"maptile.h"
 	"general.h"
 
-1335549505 e:\main\computer stuff\the explorer's army\client\src\maptile.h
+1335818623 e:\main\computer stuff\the explorer's army\client\src\maptile.h
 
 1335536956 e:\main\computer stuff\the explorer's army\client\src\network.h
 
-1335537228 source:e:\main\computer stuff\the explorer's army\client\src\map.cpp
+1335818806 source:e:\main\computer stuff\the explorer's army\client\src\map.cpp
 	"map.h"
 
 1335537228 source:e:\main\computer stuff\the explorer's army\client\src\network.cpp
@@ -53,4 +54,243 @@
 	"general.h"
 
 1335550069 e:\main\computer stuff\the explorer's army\client\src\general.h
+
+1336743623 e:\main\computer stuff\the explorer's army\client\src\include\python.h
+	"python/Python.h"
+	<string>
+	<iostream>
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\python.h
+	"patchlevel.h"
+	"pyconfig.h"
+	"pymacconfig.h"
+	<limits.h>
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<stdlib.h>
+	<unistd.h>
+	<stddef.h>
+	<assert.h>
+	"pyport.h"
+	"pymath.h"
+	"pymem.h"
+	"object.h"
+	"objimpl.h"
+	"pydebug.h"
+	"unicodeobject.h"
+	"intobject.h"
+	"boolobject.h"
+	"longobject.h"
+	"floatobject.h"
+	"complexobject.h"
+	"rangeobject.h"
+	"stringobject.h"
+	"memoryobject.h"
+	"bufferobject.h"
+	"bytesobject.h"
+	"bytearrayobject.h"
+	"tupleobject.h"
+	"listobject.h"
+	"dictobject.h"
+	"enumobject.h"
+	"setobject.h"
+	"methodobject.h"
+	"moduleobject.h"
+	"funcobject.h"
+	"classobject.h"
+	"fileobject.h"
+	"cobject.h"
+	"pycapsule.h"
+	"traceback.h"
+	"sliceobject.h"
+	"cellobject.h"
+	"iterobject.h"
+	"genobject.h"
+	"descrobject.h"
+	"warnings.h"
+	"weakrefobject.h"
+	"codecs.h"
+	"pyerrors.h"
+	"pystate.h"
+	"pyarena.h"
+	"modsupport.h"
+	"pythonrun.h"
+	"ceval.h"
+	"sysmodule.h"
+	"intrcheck.h"
+	"import.h"
+	"abstract.h"
+	"compile.h"
+	"eval.h"
+	"pyctype.h"
+	"pystrtod.h"
+	"pystrcmp.h"
+	"dtoa.h"
+	"pyfpe.h"
+	<pth.h>
+
+1307884946 e:\main\computer stuff\the explorer's army\client\src\include\python\patchlevel.h
+
+1299577412 e:\main\computer stuff\the explorer's army\client\src\include\python\pyconfig.h
+	<io.h>
+	<stdlib.h>
+	<float.h>
+	<basetsd.h>
+	<io.h>
+	<stdio.h>
+
+1306731232 e:\main\computer stuff\the explorer's army\client\src\include\python\pymacconfig.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\pyport.h
+	"pyconfig.h"
+	<inttypes.h>
+	<stdint.h>
+	<stdlib.h>
+	<ieeefp.h>
+	<math.h>
+	<sys/time.h>
+	<time.h>
+	<sys/time.h>
+	<time.h>
+	<sys/select.h>
+	<sys/types.h>
+	"unixstuff.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<stat.h>
+	<sys/types.h>
+	<sys/termio.h>
+	<termios.h>
+	<osreldate.h>
+	<ctype.h>
+	<wctype.h>
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\pymath.h
+	"pyconfig.h"
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\pymem.h
+	"pyport.h"
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\object.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\objimpl.h
+	"pymem.h"
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\pydebug.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\unicodeobject.h
+	<stdarg.h>
+	<ctype.h>
+	<time.h>
+	<wchar.h>
+	<wctype.h>
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\intobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\boolobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\longobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\floatobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\complexobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\rangeobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\stringobject.h
+	<stdarg.h>
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\memoryobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\bufferobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\bytesobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\bytearrayobject.h
+	<stdarg.h>
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\tupleobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\listobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\dictobject.h
+
+1299577176 e:\main\computer stuff\the explorer's army\client\src\include\python\enumobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\setobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\methodobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\moduleobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\funcobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\classobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\fileobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\cobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\pycapsule.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\traceback.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\sliceobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\cellobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\iterobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\genobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\descrobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\warnings.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\weakrefobject.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\codecs.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\pyerrors.h
+	<stdarg.h>
+
+1306731232 e:\main\computer stuff\the explorer's army\client\src\include\python\pystate.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\pyarena.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\modsupport.h
+	<stdarg.h>
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\pythonrun.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\ceval.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\sysmodule.h
+
+1299577176 e:\main\computer stuff\the explorer's army\client\src\include\python\intrcheck.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\import.h
+
+1306731232 e:\main\computer stuff\the explorer's army\client\src\include\python\abstract.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\compile.h
+	"code.h"
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\code.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\eval.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\pyctype.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\pystrtod.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\pystrcmp.h
+
+1299577392 e:\main\computer stuff\the explorer's army\client\src\include\python\dtoa.h
+
+1299577176 e:\main\computer stuff\the explorer's army\client\src\include\python\pyfpe.h
+	<signal.h>
+	<setjmp.h>
+	<math.h>
 
