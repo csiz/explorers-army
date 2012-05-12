@@ -33,10 +33,15 @@ class GetInformation(webapp2.RequestHandler):
                 self.response.out.write("1\nwrong password\n")
         else:
             self.response.out.write("1\nno user found")
+
+class Status(webapp2.RequestHandler):
+	def get(self):
+		self.response.out.write("Online")
         
 
         
 
 app = webapp2.WSGIApplication([("/user/create", Create),
-                              ("/user/get", GetInformation)],
+                              ("/user/get", GetInformation),
+							  ("/user/status", Status)],
                               debug=True)
