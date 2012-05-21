@@ -1,5 +1,6 @@
 import httplib, urllib
 
+
 url = "localhost:8080"
 
 def status():
@@ -10,7 +11,7 @@ def status():
 def create(id, password, name):
 	params = urllib.urlencode({'id': id, 'password': password, 'name': name})
 	headers = {"Content-type": "application/x-www-form-urlencoded","Accept": "text/plain"}
-	conn = httplib.HTTPConnection(url)
+	conn = http.client.HTTPConnection(url)
 	conn.request("POST", "/user/create", params, headers)
 	response = conn.getresponse()
 	return response.read()
